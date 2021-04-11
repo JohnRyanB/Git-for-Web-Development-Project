@@ -16,12 +16,12 @@ https://codepen.io/Joblackb/pen/LYxOdwE
     13. How do I get my link to open in a new tab? target="_blank" attribute to your <a> tag 
     14. What is the alt attribute in the image tag used for?  Screen readers to give a description for accessibility
     15. How do I reference an id? #idname in the styling
-    16. What is the difference between a section and a div? section tag is for a whole section of document, p tag is for a paragraph
+    16. What is the difference between a section and a div? section tag means the content is grouped and related, div tag is less specific does not necessarily mean they are related
     17. What is CSS used for? styling your html
-    18. How to we select an element? Example - every h2 on the page just name the element in the css
+    18. How to we select an element? Example - every h2 on the page just name the element in the css h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one. Classes can be used multiple times on a page, ids are used for a single element. I would use a Class to give the same background color to multiple paragraphs, while I would use an id if I wanted one of those paragraphs to have a different background color.
     20. How do we select classes in CSS? .classname {}
-    21. How do we select a p element with a single class of “human””? .human {}
+    21. How do we select a p element with a single class of “human””? p .human {}
     22. What is a parent child selector? When would this be useful? It allows you to have children inherit styling from parents. It is useful if you want only certain styling to be inherited
     23. How do you select all links within a div with the class of sidebar? .sidebar a {}
     24. What is a pseudo selector? a keyword for the selector i.e. :hover
@@ -29,7 +29,7 @@ https://codepen.io/Joblackb/pen/LYxOdwE
     26. What do we use to change the spacing between letters? letter-spacing:
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform:uppercase; text-transform:lowercase, text-transform:capitalize;
     28. How do I add a 1px border around my div that is dotted and black? border:1px dotted #000000;
-    29. How do I select everything on the page? *{}
+    29. How do I select everything on the page? * {}
     30. How do I write a comment in CSS? /* */
     31. How do I find out what file I am in, when I am using the command line? pwd
     32. Using the command line - how do I see a list of files/folders in my current folder? ls
